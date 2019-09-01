@@ -1,0 +1,6 @@
+<mat-list role="list" *ngFor="let article of articles">
+  <mat-list-item role="listitem" (click)="sendArticle(article)">{{article.title}}</mat-list-item>
+  <br>
+  <mat-divider></mat-divider>
+  <br>
+</mat-list>

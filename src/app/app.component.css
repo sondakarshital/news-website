@@ -1,0 +1,26 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+  .wrap {
+    width: 100%;
+    overflow:auo;
+    }
+    .news-list {
+        float:left; 
+        width: 25%;
+        
+    }
+    .news {
+    float: right;
+        width: 70%;
+    }
+    .news-categeries{
+        float: right;
+    }
+  
+  

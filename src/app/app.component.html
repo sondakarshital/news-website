@@ -1,0 +1,15 @@
+<mat-card>
+  Daily News 
+  <div class="news-categeries">
+    <button mat-button (click) ="catogery($event)" >Business</button>
+    <button mat-button color="primary" (click) ="catogery($event)" >Entertainment</button>
+    <button mat-button color="accent" (click) ="catogery($event)">Health</button>
+    <button mat-button color="warn" (click) ="catogery($event)">Science</button>
+    <button mat-button (click) ="catogery($event)">Sports</button>
+    <button mat-button (click) ="catogery($event)">Technology</button>
+  </div>
+</mat-card>
+<div class="wrap">
+  <mat-card class="news-list"><app-news-list></app-news-list></mat-card>
+  <app-news class="news"></app-news>
+</div>
